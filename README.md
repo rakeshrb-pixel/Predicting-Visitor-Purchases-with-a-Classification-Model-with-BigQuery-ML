@@ -24,5 +24,6 @@ Question: Out of the total visitors who visited our website, what % made a purch
 
 2.Add the following to the New Query field:
 
-![image](https://user-images.githubusercontent.com/60198979/139580733-9748aa71-3d4d-49ff-8c69-56b79f6a6013.png)
+![image](https://user-images.githubusercontent.com/60198979/139580755-47884b9f-a603-4295-97b8-d1c6e9005c8b.png)
+
 
