@@ -24,20 +24,5 @@ Question: Out of the total visitors who visited our website, what % made a purch
 
 2.Add the following to the New Query field:
 
-#standardSQL
-WITH visitors AS(
-SELECT
-COUNT(DISTINCT fullVisitorId) AS total_visitors
-FROM `data-to-insights.ecommerce.web_analytics`
-),
-purchasers AS(
-SELECT
-COUNT(DISTINCT fullVisitorId) AS total_purchasers
-FROM `data-to-insights.ecommerce.web_analytics`
-WHERE totals.transactions IS NOT NULL
-)
-SELECT
-  total_visitors,
-  total_purchasers,
-  total_purchasers / total_visitors AS conversion_rate
-FROM visitors, purchasers
+![image](https://user-images.githubusercontent.com/60198979/139580733-9748aa71-3d4d-49ff-8c69-56b79f6a6013.png)
+
